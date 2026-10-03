@@ -4,7 +4,7 @@ function CardList() {
   return (
     <div className="card-list">
       <NFTCard
-        image="/nft-image.jpg"
+        image="./nft-image.jpg"
         name="Equilibrium #3429"
         description="Our Equilibrium collection promotes balance and calm."
         price="0.041 ETH"
@@ -12,7 +12,7 @@ function CardList() {
       />
 
       <NFTCard
-        image="/nft-image2.jpg"
+        image="./nft-image2.jpg"
         name="Crystal #128"
         description="A digital crystal from a futuristic collection."
         price="0.065 ETH"
@@ -20,7 +20,7 @@ function CardList() {
       />
 
       <NFTCard
-        image="/nft-image3.jpg"
+        image="./nft-image3.jpg"
         name="Cyber #721"
         description="A unique digital artwork from the cyber collection."
         price="0.089 ETH"
