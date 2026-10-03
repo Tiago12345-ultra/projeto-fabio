@@ -10,9 +10,9 @@ main {
   justify-content: center;
   align-items: center;
 }
-
 .card {
-  width: 300px;
+  width: 90%;
+  max-width: 300px;
   padding: 20px;
   background: #14253d;
   border-radius: 15px;
