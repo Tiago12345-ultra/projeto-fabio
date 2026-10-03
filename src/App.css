@@ -10,12 +10,25 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card {
   width: 90%;
   max-width: 300px;
   padding: 20px;
   background: #14253d;
   border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
 }
 
 .card > img {
@@ -41,10 +54,14 @@ main {
   border-top: 1px solid #2f415b;
   margin: 20px 0;
 }
-.card {
-  transition: 0.3s;
-}
 
-.card:hover {
-  transform: translateY(-8px);
+@media (max-width: 700px) {
+  .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
 }
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}git status

@@ -1,10 +1,11 @@
 import './App.css'
-import NFTCard from './components/NFTCard'
+import 'animate.css'
+import CardList from './components/CardList'
 
 function App() {
   return (
     <main>
-      <NFTCard />
+      <CardList />
     </main>
   )
 }

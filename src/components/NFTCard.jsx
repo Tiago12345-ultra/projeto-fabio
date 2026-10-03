@@ -1,15 +1,15 @@
-function NFTCard() {
+function NFTCard({ image, name, description, price, time }) {
   return (
     <div className="card">
-      <img src="/nft-image.jpg" alt="NFT" />
+      <img src={image} alt={name} />
 
-      <h2>Equilibrium #3429</h2>
+      <h2>{name}</h2>
 
-      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <p>{description}</p>
 
       <div>
-        <span>0.041 ETH</span>
-        <span>3 days left</span>
+        <span>{price}</span>
+        <span>{time}</span>
       </div>
 
       <hr />
