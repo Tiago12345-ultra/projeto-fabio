@@ -1,16 +1,29 @@
-# React + Vite
+# NFT Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o projeto
 
-Currently, two official plugins are available:
+Este projeto foi feito para criar uma página de cards de NFTs, usando como inspiração o desafio NFT Preview Card do Frontend Mentor.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A página mostra diferentes NFTs com imagem, nome, descrição, preço e tempo restante.
 
-## React Compiler
+## Tecnologias usadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* CSS
+* Animate.css
+* GitHub Pages
 
-## Expanding the ESLint configuration
+## Imagens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+As imagens dos NFTs e o logo foram criados com ajuda do Leonardo.ai.
+
+## Acesso ao projeto
+
+https://tiago12345-ultra.github.io/projeto-fabio/
+
+## Autores
+
+Tiago Valadares
+Vitor Augusto 
+Cassiele Silveira
