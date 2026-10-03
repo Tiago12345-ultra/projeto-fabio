@@ -1,12 +1,17 @@
 import './App.css'
 import 'animate.css'
 import CardList from './components/CardList'
+import Header from './components/Header'
 
 function App() {
   return (
-    <main>
-      <CardList />
-    </main>
+    <>
+      <Header />
+
+      <main>
+        <CardList />
+      </main>
+    </>
   )
 }
 

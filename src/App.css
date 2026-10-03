@@ -64,4 +64,22 @@ main {
 .card:hover {
   transform: translateY(-5px);
   transition: 0.3s;
-}git status
+}
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  background: #14253d;
+}
+
+header img {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+header h1 {
+  color: white;
+  font-size: 22px;
+}
