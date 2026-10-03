@@ -1,3 +1,4 @@
+import './App.css'
 import NFTCard from './components/NFTCard'
 
 function App() {
